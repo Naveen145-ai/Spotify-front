@@ -11,7 +11,7 @@ const PlayerContextProvider = (props) => {
     const seekBg = useRef();
     const seekBar = useRef();
 
-      const url = 'http://localhost:4000';
+      const url = 'https://music-server-ptep.onrender.com';
 
     const [songsData,setSongsData] = useState([]);
     const [albumsData,setAlbumsData] = useState([]);
