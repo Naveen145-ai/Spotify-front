@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 
 import AlbumItem from './AlbumItem'
-import SongItem from './songItem'
+import SongItem from './SongItem'
 import { useContext } from 'react'
 import { PlayerContext } from '../context/PlayerContext'
 
